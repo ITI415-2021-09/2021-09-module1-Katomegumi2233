@@ -314,6 +314,7 @@ GameObject:
   - component: {fileID: 757717476}
   - component: {fileID: 757717478}
   - component: {fileID: 757717477}
+  - component: {fileID: 757717479}
   m_Layer: 5
   m_Name: HighScore
   m_TagString: Untagged
@@ -382,6 +383,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757717475}
   m_CullTransparentMesh: 1
+--- !u!114 &757717479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757717475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7180ebb61ecd74746a492704455b9eab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &792234105
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,6 +495,7 @@ MonoBehaviour:
   numBaskets: 3
   basketBottomY: -14
   basketSpacingY: 2
+  basketList: []
 --- !u!1 &1563670769
 GameObject:
   m_ObjectHideFlags: 0
@@ -650,7 +664,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -3145239166140465829, guid: c3f54350954834f488ba9bb833ac8660, type: 3}
       propertyPath: speed
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -3145239166140465829, guid: c3f54350954834f488ba9bb833ac8660, type: 3}
       propertyPath: applePrefab
@@ -674,7 +688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3145239166140465829, guid: c3f54350954834f488ba9bb833ac8660, type: 3}
       propertyPath: secondsBetweenAppleDrops
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 468457733155485004, guid: c3f54350954834f488ba9bb833ac8660, type: 3}
       propertyPath: m_RootOrder
