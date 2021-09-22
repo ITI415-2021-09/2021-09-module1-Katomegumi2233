@@ -20,9 +20,9 @@ public class FollowCam : MonoBehaviour
 
     void FixedUpdate()
     {
-        // if (POI == null) return;
+       //if (POI == null) return;
 
-        //Vector3 destination = POI.transform.position;
+       //Vector3 destination = POI.transform.position;
 
         
 
@@ -36,7 +36,7 @@ public class FollowCam : MonoBehaviour
         {
             destination = POI.transform.position;
 
-            if (POI.tag == "projectile")
+            if (POI.tag == "Projectile")
             {
                 if (POI.GetComponent<Rigidbody>().IsSleeping())
                 {

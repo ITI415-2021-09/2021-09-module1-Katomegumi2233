@@ -31,7 +31,7 @@ projectileRigidbody;
    void Awake()
     {
         S = this;
-        Transform launchPointTrans = transform.FindChild("LaunchPoint");
+        Transform launchPointTrans = transform.Find("LaunchPoint");
         
        
         launchPoint = launchPointTrans.gameObject;

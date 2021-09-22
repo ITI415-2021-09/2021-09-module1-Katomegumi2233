@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -26,7 +25,7 @@ public class MissionDemolition : MonoBehaviour
     public int shotsTaken;
     public GameObject castle;
     public GameMode mode = GameMode.idle;
-    public string showing = "Show Sling";
+    public string showing = "Show Slingshot";
 
     
     // Start is called before the first frame update
