@@ -38,7 +38,7 @@ public class ui : MonoBehaviour
         else
         {
             Time.timeScale = 1;
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(3);
             losego.SetActive(false);
         }
 
