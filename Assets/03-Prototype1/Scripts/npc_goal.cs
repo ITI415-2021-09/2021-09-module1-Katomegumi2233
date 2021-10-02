@@ -82,7 +82,7 @@ public class npc_goal : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.LogError(other.gameObject.name);
+       
         if (other.gameObject.name.Equals("football(Clone)"))
         {
             Time.timeScale = 0;
